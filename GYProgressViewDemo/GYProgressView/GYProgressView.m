@@ -16,11 +16,13 @@
 
 @implementation GYProgressView
 
+//默认设置方法，有动画效果
 -(void)setProgress:(float)progress
 {
     [self setProgress:progress animated:YES];
 }
 
+//默认设置方法，有无动画效果按照animated来设置
 -(void)setProgress:(float)progress animated:(BOOL)animated
 {
     _progress = progress;
@@ -60,7 +62,7 @@
 
 }
 
-
+//进度条的背景图片
 - (void)setBarImage:(UIImage *)barImage
 {
     _barImage = barImage;
@@ -70,7 +72,7 @@
         [_subProgressView layoutIfNeeded];
     }
 }
-
+//进度条的颜色
 - (void)setBarColor:(UIColor *)barColor
 {
     _barColor = barColor;
@@ -81,6 +83,7 @@
     }
 }
 
+//边框颜色
 - (void)setBorderColor:(UIColor *)borderColor
 {
     _borderColor = borderColor;

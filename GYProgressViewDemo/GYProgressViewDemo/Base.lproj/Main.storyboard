@@ -48,7 +48,7 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="coS-Dw-Son" customClass="GYProgressView">
                                 <rect key="frame" x="20" y="78" width="280" height="17"/>
                                 <animations/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="17" id="j55-LY-Iu0"/>
                                 </constraints>
